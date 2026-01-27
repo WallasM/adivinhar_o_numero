@@ -5,7 +5,7 @@ public class Vetor {
         // Perguntar quantidade de alunos
         Scanner sc = new Scanner(System.in);
         System.out.print("Quantas pessoas tem na sala ");
-        int Quant = Integer.parseInt(scanner.nextLine());
+        int Quant = Integer.parseIntScanner.nextLine();
         // Nomes e idades de alunos
         String nomes[] = new String[Quant];
         int idade[] = new int[Quant];

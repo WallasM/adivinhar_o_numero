@@ -13,8 +13,12 @@ public class somarlinhas {
         }
         System.out.println("Qual linha deseja somar?");
         int linha = sc.nextInt();
+        linha--;
         //Aqui vai ficar o codigo pra somar a linha
-        
-
+        int soma = 0;
+        for (int j = 0; j < 4; j++){
+            soma += matriz[linha][j];
+        }
+        System.out.println("A soma dos elementos da linha " + (linha + 1) + " é: " + soma);
     }
 }
