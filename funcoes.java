@@ -5,6 +5,7 @@ public class funcoes {
         double imc = (peso / (altura * altura));
         return imc;
     }
+    
 
     public static double classificarIMC (double pesoNormal, double sobrePeso, double obesidade){
         double
